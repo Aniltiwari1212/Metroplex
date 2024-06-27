@@ -1,0 +1,70 @@
+@media (max-width:1199.98px){
+    .header_sec .navbar .nav-item:not(:last-child) {
+        padding-right: 20px;
+    }
+    .header_sec .navbar .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .heading_h1 {
+        font-size: 50px;
+    }
+    .navbar-brand {
+        max-width: 150px;
+    }
+    .about_txt p {
+        margin: 10px 0;
+    }
+}
+@media (min-width:768px){
+    .call_us > a{margin-right: 5px;}
+    .expert_list ul {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .expert_list li {
+        width: 25%;
+    }
+}
+@media (min-width:992px){
+    .header_sec .navbar .nav-item:not(:last-child) {
+        padding-right: 10px;
+    }
+    .header_sec .dropdown-menu {
+        transform: scale(0);
+        display: block;
+        top: 100%;
+        transition: ease-in-out .5s;
+    }
+    .header_sec .navbar .nav-item:hover .dropdown-menu {
+        transform: scaleX(1);
+    }
+    .contact_form {
+        max-width: 700px;
+    }
+    .contact_page .contact_form:after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100%;
+        background: #a2badc;
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .landScape_srvc .service_img {
+        height: 300px;
+    }
+}
+@media (min-width:1200px){
+    .whyChus_sec .container-fluid {
+        padding: 0 0 0 50px;
+    }
+    .whyChus_sec .head_box {
+        padding-top: 30px;
+    }
+    .header_sec .navbar .nav-item:not(:last-child) {
+        padding-right: 40px;
+    }
+}
+
